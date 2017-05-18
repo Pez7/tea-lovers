@@ -28,6 +28,9 @@ Código Hexadecimal gris footer: #3B3B3B
 	background-color: #8EC641;	
 }
 /*Newsletter*/
+.enunciado{
+	color:white;
+}
 .newsletter {
 	text-align: center;
 	padding: 50px;
