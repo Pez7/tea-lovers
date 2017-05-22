@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 	  <title>Tea Lovers</title>
 	  <link href="https://fonts.googleapis.com/css?family=Raleway:500,700,900" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/style.css">	
+	  <link rel="stylesheet" href="assets/css/style.css">	
 	</head>
 	<body>
 	<!--Sección bienvenida-->
@@ -19,6 +19,26 @@
 	<!--Sección Newsletter -->
 	<section class="color">
 		<div class="newsletter">
+			<div class="enunciado" id="texto">¿Te gusta el té?</div>
+			<label for="name" class="enunciado">Nombre</label><br>
+            <input type="text" id="name" class="caja" placeholder="Escribe tu nombre" name="nombre"><br>
+            <label for="name" class="enunciado">Email</label><br>
+            <input type="text" id="email" class="caja" placeholder="Escribe un email" name="email"><br>
+            <label for="name" class="enunciado">Dirección</label><br>
+            <input type="text" id="address" class="caja" placeholder="Escribe tu dirección" name="dirección"><br>
+            <label for="name" class="enunciado">Té favorito</label><br>
+            <select class="select" id="lista">
+              <option value="0">Selecciona tu té</option>
+              <option value="negro">Negro</option>
+              <option value="treking">Verde</option>
+              <option value="rojo">Rojo</option>
+              <option value="blanco">Blanco</option>
+            </select><br>
+            <div class="checkbox">
+            <label>
+              <input type="checkbox">
+              <span class="enunciado">Quiero recibir muestra gratis</span>
+            </label><br>
 		<button id="suscribirse">Suscríbete a nuestro newsletter</button>
 		</div>
 	</section>
@@ -69,5 +89,6 @@
 	<footer>
 		<p>Té Encanto: Av. Italia 1317, Providencia</p>
 	</footer>
+	<script src="assets/js/main.js" type="text/javascript"></script>
 	</body>
 </html>
